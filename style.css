@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 /* header styles  */
 .nav-container{
@@ -70,4 +71,107 @@
 .btn-discover{
     background-color: rgba(255, 0, 0, 0.936);
     color: white;
+}
+
+/* service styles  */
+
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("asset/image/footer-bg.png") , 
+    linear-gradient(rgba(0,0,0,1),rgb(0, 0, 0));
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    color: gray;
+}
+.service-items{
+    padding: 50px;
+    width: 50%;
+}
+.service-title{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-desc{
+    font-size: 20px;
+    width: 60%;
+
+}
+.service-items ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.service-items ul li{
+    list-style: decimal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.author-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.author-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.author-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+    
+}
+.author-name{
+    font-size: 20px;
+}
+.more-details{
+
+    border-left: 1px solid red;
+}
+
+.more-details .service-btn{
+    margin-left: 40px;
+    color: red;
+
+}
+.service-skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.skill{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 5px 5px 8px  gray; */
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.skill img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
 }
